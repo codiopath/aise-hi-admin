@@ -299,14 +299,29 @@ function Blog() {
   
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
-      <li className="nav-item">
+        <li className="nav-item">
+          <Link className="nav-link" to="/hero">Hero-Section <span className="sr-only">(current)</span></Link>
+        </li>
+        <li className="nav-item">
           <Link className="nav-link" to="/services">Services <span className="sr-only">(current)</span></Link>
         </li>
-        <li className="nav-item active">
-          <Link className="nav-link" to="#">Blog</Link>
+        <li className="nav-item">
+          <Link className="nav-link active" to="/blog">Blog</Link>
         </li>
-        <li className="nav-item ">
+        <li className="nav-item">
           <Link className="nav-link" to="/gallery">Gallery</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/doctors">Our Doctors</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/reports">Reports</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/appointment">Appointments</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/contact">Contact Us</Link>
         </li>
         {/* <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
