@@ -1,0 +1,104 @@
+i{
+    transition: 1s;
+}
+
+i:hover{
+    cursor: pointer;
+    font-size: 50px !important;
+    transition: 1s;
+}
+.closeModdal{
+    font-size: 40px;
+}
+.closeModdal:hover{
+    cursor: pointer;
+}
+
+input{
+    width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 2px solid #00000090;
+}
+textarea{
+    width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 2px solid #00000090;
+}
+
+.submit{
+    width: 50%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 2px 5px 10px #22222280;
+}
+
+.myInputQuillClass{
+    width: 50%;
+}
+
+.card{
+    width: 30%;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    border: 2px solid #00000070;
+}
+
+.cardClass{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 900px){
+    .card{
+        width: 40%;
+    }
+    .myInputClass, .myInputQuillClass{
+        width: 100%;
+    }
+    .myHeader{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .card{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .myHeader{
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .card{
+        width: 90%;
+    }
+    .myHeader{
+        font-size: 20px;
+        width: 90% !important;
+        line-height: 30px;
+    }
+    .myImage{
+        height: 300px !important;
+        width: 90% !important;
+    }
+    .myDescription{
+        width: 85% !important;
+        
+    }
+}
