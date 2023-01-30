@@ -240,8 +240,9 @@ function Blog() {
                 <div className="card">
       <img src={obj.image} className="card-img-top" alt="..." style={{height: '250px', objectFit: 'cover', objectPosition: 'center'}}/>
       <div className="card-body">
+        {obj.title &&
         <h5 className="card-title" style={{textTransform: 'uppercase'}}>{`${obj.title.slice(0,40)}...`}</h5>
-        
+        }
         <p className="card-text">{`Click on the Read more button to read this blog...`}</p>
         <div style={{display: 'flex', justifyContent: 'flex-end'}}>
     
